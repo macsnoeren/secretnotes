@@ -26,6 +26,16 @@ When you have made changes to your vault. Type in your password and click on the
 ## Clear your vault
 Clicking on the red button 'Clear vault' at the top of the page, will clear your vault. This is a destructive operation that deletes all the information stored in the local storage of your browser. Note, that this information cannot be retrieved anymore and that you will lose all your secret notes after executing this function.
 
+## Download your vault
+You can also download your encrypted vault. This cannot be read. The file can be stored anywhere and transferred to another computer if required. I have the file on my personal USB stick, so I am able to see the secret notes on any computer with a browser that is HTML5 enabled. The figure below shows the button 'Download vault' at the bottom of the page.
+
+![download-vault](images/download-vault.png)
+
+## Load yout vault
+When you have cleared your vault or you just use another browser, you can load a vault file. This file is read and the encrypted contents is stored in the local storage. When loaded, you are able to open the secret notes and add secret notes.
+
+![load-vault](images/load-vault.png)
+
 # Usage
 You can use this secret notes manager, by copying the ``secretnotes.html`` to your desktop for example. When you need the secretnotes, you simply open this local web page and you can use your secret notes in your browser.
 
