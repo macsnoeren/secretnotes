@@ -1,5 +1,5 @@
 # Secret notes - secretnotes.html
-A local browser based secret note manager that can be used as password manager as well. Using a master password, your notes and passwords are stored encrypted in the local storage of your browser. No cookies and secrets are communicated with the Internet. Storing the ```secretnotes.html``` on your computer is the only thing you need. Another way is to store it on an USB disk. On this disk you can also store the vault file itself, so have have always your secrets with you!
+A local browser based secret note manager that can be used as password manager as well. Using a master password, your notes and passwords are stored encrypted in the local storage of your browser. No cookies and secrets are communicated with the Internet. Storing the ``secretnotes.html`` on your computer is the only thing you need. Another way is to store it on an USB disk. On this disk you can also store the vault file itself, so have have always your secrets with you!
 
 When you do not want to rely on servers, services or third parties. This straigthforward password manager encrypts all your passwords and stores it locally at your browsers local storages. Everything is encrypted in that store. When you type in the password, the encrypted passwords will be visualized in the browser. No server communication, just on your local computer or browser. You can check the source code!
 
@@ -49,10 +49,10 @@ It is possible to use dark and light mode. The mode is stored in the local stora
 ![dark-mode](images/add-password.png)
 
 # Usage
-You can use this secret notes manager, by copying the ``secretnotes.html`` to your desktop for example. When you need the secretnotes, you simply open this local web page and you can use your secret notes in your browser.
+You can use this secret notes manager, by copying the ``secretnotes.html`` to your desktop for example. When you need the secretnotes, you simply open this local web page and you can use your secret notes in your browser. Another way is to store it on an USB disk. On this disk you can also store the vault file itself, so have have always your secrets with you!
 
 # Libaries used
-The following libraries are used and loaded from the Internet. All files will be checked on integrity before used.
+The following libraries are used and loaded from the Internet. All files will be checked on integrity before used. It is important to make sure these files are updated when they have been changed.
 * Bootstrap
 * jQuery
 * CryptoJS
