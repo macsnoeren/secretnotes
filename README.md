@@ -1,5 +1,5 @@
 # Secret notes - secretnotes.html
-A local browser based secret note manager. Using a master password, your notes are stored encrypted in the local storage of your browser. No cookies and secrets are not communicated with the Internet.
+A local browser based secret note manager that can be used as password manager as well. Using a master password, your notes and passwords are stored encrypted in the local storage of your browser. No cookies and secrets are communicated with the Internet. Storing the ``secretnotes.html`` on your computer is the only thing you need. Another way is to store it on an USB disk. On this disk you can also store the vault file itself, so have have always your secrets with you!
 
 When you do not want to rely on servers, services or third parties. This straigthforward password manager encrypts all your passwords and stores it locally at your browsers local storages. Everything is encrypted in that store. When you type in the password, the encrypted passwords will be visualized in the browser. No server communication, just on your local computer or browser. You can check the source code!
 
@@ -26,11 +26,33 @@ When you have made changes to your vault. Type in your password and click on the
 ## Clear your vault
 Clicking on the red button 'Clear vault' at the top of the page, will clear your vault. This is a destructive operation that deletes all the information stored in the local storage of your browser. Note, that this information cannot be retrieved anymore and that you will lose all your secret notes after executing this function.
 
+![clear-vault-dialog](images/clear-vault-dialog.png)
+
+## Download your vault
+You can also download your encrypted vault. This cannot be read. The file can be stored anywhere and transferred to another computer if required. I have the file on my personal USB stick, so I am able to see the secret notes on any computer with a browser that is HTML5 enabled. The figure below shows the button 'Download vault' at the bottom of the page.
+
+![download-vault](images/download-vault.png)
+
+## Load yout vault
+When you have cleared your vault or you just use another browser, you can load a vault file. This file is read and the encrypted contents is stored in the local storage. When loaded, you are able to open the secret notes and add secret notes.
+
+![load-vault](images/load-vault.png)
+
+## Generate new passwords
+If you would like to create and generate new passwords for some sources or URLs, you can use the button "Add new password" at the top right. You fill in the source, username and the password. Pressing the green "Generate" button will provide a self generated password of 25 characters.
+
+![add-password-dialog](images/add-password-dialog.png)
+
+## Dark mode
+It is possible to use dark and light mode. The mode is stored in the local storage of the browser, so it remembers what you have selected. When the checkbox is toggled, the dark mode is activated.
+
+![dark-mode](images/add-password.png)
+
 # Usage
-You can use this secret notes manager, by copying the ``secretnotes.html`` to your desktop for example. When you need the secretnotes, you simply open this local web page and you can use your secret notes in your browser.
+You can use this secret notes manager, by copying the ``secretnotes.html`` to your desktop for example. When you need the secretnotes, you simply open this local web page and you can use your secret notes in your browser. Another way is to store it on an USB disk. On this disk you can also store the vault file itself, so have have always your secrets with you!
 
 # Libaries used
-The following libraries are used and loaded from the Internet. All files will be checked on integrity before used.
+The following libraries are used and loaded from the Internet. All files will be checked on integrity before used. It is important to make sure these files are updated when they have been changed.
 * Bootstrap
 * jQuery
 * CryptoJS
