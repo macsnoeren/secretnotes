@@ -21,7 +21,7 @@ When a vault has been created, you land on the page that you can use your vault.
 Type in your password and click on the blue 'Open' button. If the password is correct, your secret notes are displayed in the text area.
 
 ## Saving your vault
-When you have made changes to your vault. Type in your password and click on the green button 'Save'. Your changes are saved to the vault.
+When you have made changes to your vault. Type in your password and click on the green button 'Save'. Your changes are saved to the vault. Everytime you make changes to your vault, you are required to execute this process.
 
 ## Clear your vault
 Clicking on the red button 'Clear vault' at the top of the page, will clear your vault. This is a destructive operation that deletes all the information stored in the local storage of your browser. Note, that this information cannot be retrieved anymore and that you will lose all your secret notes after executing this function.
