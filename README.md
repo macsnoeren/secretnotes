@@ -1,9 +1,12 @@
+![Badges](https://img.shields.io/github/repo-size/macsnoeren/secretnotes)
+![Badges](https://img.shields.io/github/last-commit/macsnoeren/secretnotes) 
+![Badges](https://img.shields.io/github/stars/macsnoeren/secretnotes)
+![Badges](https://img.shields.io/github/v/release/macsnoeren/secretnotes) 
+
 # Secret notes - secretnotes.html
 A local browser based secret note manager that can be used as password manager as well. Using a master password, your notes and passwords are stored encrypted in the local storage of your browser. No cookies and secrets are communicated with the Internet. Storing the ``secretnotes.html`` on your computer is the only thing you need. Another way is to store it on an USB disk. On this disk you can also store the vault file itself, so have have always your secrets with you!
 
-When you do not want to rely on servers, services or third parties. This straigthforward password manager encrypts all your passwords and stores it locally at your browsers local storages. Everything is encrypted in that store. When you type in the password, the encrypted passwords will be visualized in the browser. No server communication, just on your local computer or browser. You can check the source code!
-
-If loaded in your browser, you can use it without an active Internet connection. 
+When you do not want to rely on servers, services or third parties. This straigthforward password manager encrypts all your passwords and stores it locally at your browsers local storages. Everything is encrypted in that store. When you type in the password, the encrypted passwords will be visualized in the browser. No server communication, just on your local computer or browser. You can check the source code! If loaded in your browser, you can use it without an active Internet connection. 
 
 Use it at your own risk!
 
@@ -21,7 +24,7 @@ When a vault has been created, you land on the page that you can use your vault.
 Type in your password and click on the blue 'Open' button. If the password is correct, your secret notes are displayed in the text area.
 
 ## Saving your vault
-When you have made changes to your vault. Type in your password and click on the green button 'Save'. Your changes are saved to the vault.
+When you have made changes to your vault. Type in your password and click on the green button 'Save'. Your changes are saved to the vault. Everytime you make changes to your vault, you are required to execute this process.
 
 ## Clear your vault
 Clicking on the red button 'Clear vault' at the top of the page, will clear your vault. This is a destructive operation that deletes all the information stored in the local storage of your browser. Note, that this information cannot be retrieved anymore and that you will lose all your secret notes after executing this function.
