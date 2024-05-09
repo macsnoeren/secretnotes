@@ -8,6 +8,8 @@ A local browser based secret note manager that can be used as password manager a
 
 When you do not want to rely on servers, services or third parties. This straigthforward password manager encrypts all your passwords and stores it locally at your browsers local storages. Everything is encrypted in that store. When you type in the password, the encrypted passwords will be visualized in the browser. No server communication, just on your local computer or browser. You can check the source code! If loaded in your browser, you can use it without an active Internet connection. 
 
+[Try secret notes and run it in your browser](https://macsnoeren.github.io/secretnotes/secretnotes.html)
+
 Use it at your own risk!
 
 # Create your vault!
