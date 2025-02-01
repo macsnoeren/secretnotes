@@ -3,7 +3,7 @@
 ![Badges](https://img.shields.io/github/stars/macsnoeren/secretnotes)
 ![Badges](https://img.shields.io/github/v/release/macsnoeren/secretnotes) 
 
-# Secret notes - secretnotes.html
+# Local secret and/or password manager
 A local browser based secret note manager that can be used as password manager as well. Using a master password, your notes and passwords are stored encrypted in the local storage of your browser. No cookies and secrets are communicated with the Internet. Storing the ``secretnotes.html`` on your computer is the only thing you need. Another way is to store it on an USB disk. On this disk you can also store the vault file itself, so have have always your secrets with you!
 
 When you do not want to rely on servers, services or third parties. This straigthforward password manager encrypts all your passwords and stores it locally at your browsers local storages. Everything is encrypted in that store. When you type in the password, the encrypted passwords will be visualized in the browser. No server communication, just on your local computer or browser. You can check the source code! If loaded in your browser, you can use it without an active Internet connection. 
