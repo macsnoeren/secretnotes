@@ -3,6 +3,8 @@
 ![Badges](https://img.shields.io/github/stars/macsnoeren/secretnotes)
 ![Badges](https://img.shields.io/github/v/release/macsnoeren/secretnotes) 
 
+# TODO: Rewrite due to new version of password-manager.html!
+
 # Local secret and/or password manager
 A local browser based secret note manager that can be used as password manager as well. Using a master password, your notes and passwords are stored encrypted in the local storage of your browser. No cookies and secrets are communicated with the Internet. Storing the ``secretnotes.html`` on your computer is the only thing you need. Another way is to store it on an USB disk. On this disk you can also store the vault file itself, so have have always your secrets with you!
 
@@ -70,3 +72,4 @@ Source wiki: https://en.wikipedia.org/wiki/Advanced_Encryption_Standard
 
 Source Ubiqsecurity: https://www.ubiqsecurity.com/128bit-or-256bit-encryption-which-to-use/
 > As a result, a brute force attack against an AES-256 key is much harder than against an AES-128 key. However, even a 128-bit key is secure against attack by modern technology. At its peak, the Bitcoin network – arguably the largest modern use of computational power for cryptography – performed approximately 150*10^18≈2^67 operations per second. Assuming that these operations are of equal difficulty to a brute force attack, it would take the Bitcoin network over 70,000,000,000,000,000,000,000,000 years to crack a single AES-128 key.
+
